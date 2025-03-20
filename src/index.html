@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>weye</title>
+  <link rel="stylesheet" href="../dist/css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+  <meta property="og:image:alt" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <style>
+    .table {
+      height: 100%;
+      border-collapse: collapse;
+      background-image: linear-gradient(to top, #f2e3f46d, #bfcff163);
+    }
+    th,
+    td {
+        border: 1px solid #000000;
+        text-align: center;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+    }
+  </style>
+
+</head>
+
+<!-- 在 <body> 标签内 -->
+  <body>
+    <header>
+      <nav class="navbar">
+          <!-- <div class="brand-title">weye</div> -->
+          <a href="javascript:void(0);" class="toggle-button" onclick="toggleNavbar()">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </a>
+          <ul class="navbar-links" id="navbarLinks">
+              <li><a href="#home">天线板规格书</a></li>
+              <li><a href="#about">天线板尺寸图</a></li>
+              <li><a href="#services">PDF download</a></li>
+              <!-- <li><a href="#contact">联系我们</a></li> -->
+          </ul>
+      </nav>
+  </header>
+    <main>
+        <section id="home">
+            <h2>天线板规格书</h2>
+            <!-- <p>天线板规格书</p> -->
+        
+        <!-- 更多 section... -->
+        
+        <div class="flex-container">
+          <div  id="table-container" class="table-container">
+            <table class="table">
+              <thead>
+                <tr><th>PIN脚号</th><th>PIN脚名称</th><th>描述</th><th>特性</th></tr></thead>
+              <tbody>
+                <tr><td>1</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>2</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>3</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>4</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>5</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>6</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>7</td><td>NC</td><td>未用</td><td>/</td></tr>
+                <tr><td>8</td><td>BGT24_TX_EN</td><td>射频芯片使能</td><td>Logical</td></tr>
+                <tr><td>9</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>10</td><td>IF_Q_IN</td><td>中频信号输入</td><td>Analog</td></tr>
+                <tr><td>11</td><td>IF_I_IN</td><td>中频信号输入</td><td>Analog</td></tr>
+                <tr><td>12</td><td>DIV_OUT</td><td>频率输出</td><td>Logical</td></tr>
+                <tr><td>13</td><td>VCC_DIV</td><td>分频器电源正</td><td>电源</td></tr>
+                <tr><td>14</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>15</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>16</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>17</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>18</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>19</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>20</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>21</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>22</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>23</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>24</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>25</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>26</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>27</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>28</td><td>NC</td><td>未用</td><td>/</td></tr>
+                <tr><td>29</td><td>V_TUNE</td><td>VCO频率调制输入</td><td>Analog</td></tr>
+                <tr><td>30</td><td>V_PTAT</td><td>PTAT电压输出</td><td>Analog</td></tr>
+                <tr><td>31</td><td>VCC_PTAT</td><td>PTAT电源正</td><td>电源</td></tr>
+                <tr><td>32</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>33</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>34</td><td>VCC</td><td>电源正</td><td>3.3V±0.1;45mA_55mA</td></tr>
+                <tr><td>35</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>36</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>37</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>38</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>39</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+                <tr><td>40</td><td>GND</td><td>电源地</td><td>电源</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="image-container">
+            <img id="antenna_pin" class="image-container" src="./img/antenna_pin.png" alt="antenna_pin" style="height: 600px; width:300px">
+          </div>
+        </div>
+      </section>
+
+        <section id="about">
+          <h2>天线板尺寸图</h2>
+          <!-- <p>天线板尺寸</p> -->
+          <div class="antenna_pin_size">
+            <img id="antenna_size" class="image-container" src="./img/antenna_size.jpg" 
+            loading="lazy" alt="antenna_size" style="height: 600px; width:600px">
+          </div>
+        </section>
+
+        <section id="services">
+          <h2>PDF download</h2>
+          <ul>
+              <li><a href="http://124.223.186.76:2355/pdfs/AntennaBoardSpecification.pdf" download target="_blank">天线板规格书PDF</a></li>
+              <li><a href="http://124.223.186.76:2355/pdfs/Antennaboardsizediagram.pdf" download target="_blank">天线板尺寸图PDF</a></li>
+          </ul>
+          <div class="services"></div>
+      </section>
+    </main>
+    <footer>
+        <p>版权所有 © 2025 我的公司</p>
+    </footer>
+
+    <!-- HTML5 Boilerplate 默认包含的脚本和其他资源链接 -->
+    <script>
+    document.addEventListener('scroll', function() {
+      var homeSection = document.getElementById('table-container');
+      var antennaPin = document.getElementById('antenna_pin');
+
+      // 获取home section的边界信息
+      var rect = homeSection.getBoundingClientRect();
+
+      // 计算新的top值，使图片在section内部
+      var topOffset = rect.top + (window.innerHeight - antennaPin.offsetHeight) / 2;
+      //var topOffset = rect.top;
+      // 确保图片只在#home部分可见时进行定位
+      if(rect.top <= window.innerWidth && rect.bottom >= 0)
+      {
+        // 设置图片为fixed定位，并放置在视口中央
+        antennaPin.style.position = 'fixed'; 
+        antennaPin.style.top = (topOffset/20+50) + 'px'; // 滚动时图片距离顶网页location top的位置，数字越大滚得越快，不然图片跟不上表格所在位置
+        antennaPin.style.left = (window.innerWidth - antennaPin.offsetWidth)/(1.28)  + 'px'; //滚动时图片的水平位置
+        antennaPin.style.display = 'block'; // 确保图片显示
+
+      } else {
+          // 如果不在范围内，可以恢复默认样式或其他处理
+          antennaPin.style.position = '';
+          antennaPin.style.top = '';
+          antennaPin.style.left = '';
+      }
+    });
+  </script>
+</body>
+
+</html>
