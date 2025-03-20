@@ -14,7 +14,7 @@
   <meta property="og:image" content="">
   <meta property="og:image:alt" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/weye_logo.ico" sizes="any">
   <link rel="icon" href="/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icon.png">
 
@@ -166,11 +166,14 @@
         antennaPin.style.left = (window.innerWidth - antennaPin.offsetWidth)/(1.28)  + 'px'; //滚动时图片的水平位置
         antennaPin.style.display = 'block'; // 确保图片显示
 
-      } else {
+      } 
+      else 
+      {
           // 如果不在范围内，可以恢复默认样式或其他处理
-          antennaPin.style.position = '';
-          antennaPin.style.top = '';
-          antennaPin.style.left = '';
+          // antennaPin.style.position = '';
+          // antennaPin.style.top = '';
+          // antennaPin.style.left = '';
+          antennaPin.removeAttribute('style');
       }
     });
   </script>
